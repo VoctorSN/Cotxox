@@ -80,8 +80,7 @@ public class Carrera {
     }
 
     public void asignarConductor(PoolConductores poolConductores){
-        List<Conductor> listPoolConductores = poolConductores.getPoolConductores();
-        setConductor(listPoolConductores.get(new Random().nextInt(listPoolConductores.size())));
+        setConductor(poolConductores.asignarConductor());
     }
 
     public void realizarPago(double pago){

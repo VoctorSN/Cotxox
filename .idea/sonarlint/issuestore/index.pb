@@ -24,3 +24,21 @@ c
 3src/main/java/edu/badpals/cotxox/tarifa/Tarifa.java,8\9\89bb9397513d1b9d494ed923271e37abde153def
 9
 	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+d
+4src/test/java/org/foobarspam/cotxox/CarreraTest.java,6\1\61f1942a5f83b4cc9b0f907b81417dcf5f3ac766
+a
+1src/test/java/edu/badpals/cotxox/CarreraTest.java,2\0\20560e633884993f68f728f620ff81e13cd7fc7a
+c
+3src/test/java/edu/badpals/cotxox/ConductorTest.java,d\8\d895c95cd04a2ad2932c90ab030068569f5793bf
+i
+9src/test/java/edu/badpals/cotxox/PoolConductoresTest.java,6\2\620980b181c06d9a6f33521e230abe233452d1c4
+`
+0src/test/java/edu/badpals/cotxox/TarifaTest.java,d\2\d26a461b00adc4c8f8ad697dc0d192969a4e078b
+B
+tarifa/Tarifa.java,0\9\094465548e9ad2fcd6640f230d755bd011a12c6b
+D
+carrera/Carrera.java,7\f\7f512edf82997343ae62dd5038e961a99ce1fb9c
+J
+conductores/Conductor.java,3\1\31fa00832a86bd7704bb5d38054d7d2be53c88db
+P
+ conductores/PoolConductores.java,0\4\047b97dad9e8f7ea404f84549543485307ff4317

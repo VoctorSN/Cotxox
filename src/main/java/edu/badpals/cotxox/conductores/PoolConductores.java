@@ -16,7 +16,11 @@ public class PoolConductores {
     }
 
     public Conductor asignarConductor(){
-        Random random = new Random();
-        return getPoolConductores().get(random.nextInt(getPoolConductores().size()));
+        while (true) {
+            Random random = new Random();
+            Conductor conductor = getPoolConductores().get(random.nextInt(getPoolConductores().size()));
+            if (conductor.isOcupado())
+                return getPoolConductores().get(random.nextInt(getPoolConductores().size()));
+        }
     }
 }
