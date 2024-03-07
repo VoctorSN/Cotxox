@@ -8,7 +8,7 @@ public class Cotxox {
          * Configuracion del usuario
          * y de la Carrera.
          */
-/*
+
         String tarjetaCredito = "4916119711304546";
         String origen = "Aeroport Son Sant Joan";
         String destino = "Magaluf";
@@ -20,7 +20,7 @@ public class Cotxox {
         carrera.setDestino(destino);
         carrera.setDistancia(distancia);
         carrera.setTiempoEsperado(tiempoEsperadoMinutos);
-/*
+
         System.out.println("\n#####" + "\t Set Pickup: \t" + "#####\n");
 
         System.out.println("Visa: " + carrera.getTarjetaCredito());
@@ -43,7 +43,7 @@ public class Cotxox {
          * para ofrecer el servicio.
          * La flota es un objeto de tipo PoolConductores.
          */
-/*
+
         List<Conductor> poolConductores = new ArrayList<Conductor>();
         Conductor conductor = null;
 
@@ -72,7 +72,7 @@ public class Cotxox {
         PoolConductores conductores = new PoolConductores(poolConductores);
 
         /* Seleccion del conductor en la flota y asignacion a la carrera */
-/*
+
         carrera.asignarConductor(conductores);
 
         // Info por pantalla
@@ -110,5 +110,5 @@ public class Cotxox {
 
         System.out.println("Driver: " + carrera.getConductor().getNombre());
         System.out.println("Stars: " + carrera.getConductor().getValoracion());
-    }*/
-}}
+    }
+}

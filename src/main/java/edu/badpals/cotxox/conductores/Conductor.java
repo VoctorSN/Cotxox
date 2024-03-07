@@ -12,9 +12,12 @@ public class Conductor {
 
 
 
-    public Conductor(){}
+    public Conductor(){
+        valoracionMedia = calcularValoracionMedia();
+    }
 
     public Conductor(String nombre){
+        valoracionMedia = calcularValoracionMedia();
         this.nombre = nombre;
     }
 
@@ -58,7 +61,7 @@ public class Conductor {
         this.matricula = matricula;
     }
 
-    private double calcularValoracionMedio(){
+    private double calcularValoracionMedia(){
         valoracionMedia = 0;
         for (byte i:valoraciones){
             valoracionMedia+=i;
