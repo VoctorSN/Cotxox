@@ -1,16 +1,17 @@
 package edu.badpals.cotxox.conductores;
 
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Random;
 
 public class PoolConductores {
-    public ArrayList<Conductor> poolConductores;
+    public List<Conductor> poolConductores;
 
-    public PoolConductores(ArrayList<Conductor> conductores){
+    public PoolConductores(List<Conductor> conductores){
         this.poolConductores = conductores;
     }
 
-    public ArrayList<Conductor> getPoolConductores() {
+    public List<Conductor> getPoolConductores() {
         return poolConductores;
     }
 

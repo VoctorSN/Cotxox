@@ -1,5 +1,12 @@
 package edu.badpals.cotxox;
 
+import edu.badpals.cotxox.carrera.Carrera;
+import edu.badpals.cotxox.conductores.Conductor;
+import edu.badpals.cotxox.conductores.PoolConductores;
+
+import java.util.ArrayList;
+import java.util.List;
+
 public class Cotxox {
 
     public static void main(String[] args) {
