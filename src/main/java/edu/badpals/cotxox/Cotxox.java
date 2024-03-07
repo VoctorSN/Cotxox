@@ -1,12 +1,5 @@
 package edu.badpals.cotxox;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import edu.badpals.cotxox.carrera.Carrera;
-import edu.badpals.cotxox.conductores.Conductor;
-import edu.badpals.cotxox.conductores.PoolConductores;
-
 public class Cotxox {
 
     public static void main(String[] args) {
@@ -117,5 +110,5 @@ public class Cotxox {
 
         System.out.println("Driver: " + carrera.getConductor().getNombre());
         System.out.println("Stars: " + carrera.getConductor().getValoracion());
-    }
-}
+    }*/
+}}
