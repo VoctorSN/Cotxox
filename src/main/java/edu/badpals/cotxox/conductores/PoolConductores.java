@@ -1,7 +1,7 @@
 package edu.badpals.cotxox.conductores;
 
 import java.util.ArrayList;
-import java.util.List;
+import java.util.Random;
 
 public class PoolConductores {
     public ArrayList<Conductor> poolConductores;
@@ -15,6 +15,7 @@ public class PoolConductores {
     }
 
     public Conductor asignarConductor(){
-        return ;
+        Random random = new Random();
+        return getPoolConductores().get(random.nextInt(getPoolConductores().size()));
     }
 }
